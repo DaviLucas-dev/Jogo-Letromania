@@ -53,13 +53,9 @@ public class LetroMania extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -83,7 +79,7 @@ public class LetroMania extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(150, 160, 120, 29);
+        jButton1.setBounds(150, 180, 120, 23);
 
         jButton2.setText("Facil");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -92,7 +88,7 @@ public class LetroMania extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(150, 190, 120, 29);
+        jButton2.setBounds(150, 220, 120, 23);
 
         jButton3.setText("Médio");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -101,11 +97,7 @@ public class LetroMania extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(150, 220, 120, 29);
-
-        jButton4.setText("Complicado");
-        getContentPane().add(jButton4);
-        jButton4.setBounds(150, 280, 119, 29);
+        jButton3.setBounds(150, 260, 120, 23);
 
         jButton8.setText("Desenvolvedores");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -125,10 +117,6 @@ public class LetroMania extends javax.swing.JFrame {
         getContentPane().add(jButton7);
         jButton7.setBounds(140, 380, 150, 30);
 
-        jButton6.setText("Extremo");
-        getContentPane().add(jButton6);
-        jButton6.setBounds(150, 310, 120, 29);
-
         jButton5.setText("Dificil");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,27 +124,21 @@ public class LetroMania extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton5);
-        jButton5.setBounds(150, 250, 120, 29);
-
-        jLabel6.setText("Em Breve...");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(270, 290, 80, 70);
-
-        jLabel5.setText("Em Breve...");
-        getContentPane().add(jLabel5);
-        jLabel5.setBounds(270, 270, 80, 50);
+        jButton5.setBounds(150, 300, 120, 23);
 
         jLabel3.setText("Ver: 0.8.5");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(330, 480, 70, 16);
+        jLabel3.setBounds(330, 480, 70, 14);
 
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Selecione uma Dificuldade: ");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(130, 110, 174, 70);
+        jLabel1.setBounds(100, 120, 210, 70);
 
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Sobre:");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(190, 340, 39, 30);
+        jLabel2.setBounds(170, 340, 80, 30);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/TelaPrincipal1.png"))); // NOI18N
         jLabel4.addAncestorListener(new javax.swing.event.AncestorListener() {
@@ -275,17 +257,13 @@ public class LetroMania extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JToggleButton jToggleButton1;
     // End of variables declaration//GEN-END:variables
 
@@ -348,16 +326,16 @@ public class LetroMania extends javax.swing.JFrame {
     /**
      * @return the jButton4
      */
-    public javax.swing.JButton getjButton4() {
-        return jButton4;
-    }
+//    public javax.swing.JButton getjButton4() {
+//        return jButton4;
+//    }
 
     /**
      * @param jButton4 the jButton4 to set
      */
-    public void setjButton4(javax.swing.JButton jButton4) {
-        this.jButton4 = jButton4;
-    }
+//    public void setjButton4(javax.swing.JButton jButton4) {
+//        this.jButton4 = jButton4;
+//    }
 
     /**
      * @return the jButton5
@@ -376,16 +354,16 @@ public class LetroMania extends javax.swing.JFrame {
     /**
      * @return the jButton6
      */
-    public javax.swing.JButton getjButton6() {
-        return jButton6;
-    }
-
-    /**
-     * @param jButton6 the jButton6 to set
-     */
-    public void setjButton6(javax.swing.JButton jButton6) {
-        this.jButton6 = jButton6;
-    }
+//    public javax.swing.JButton getjButton6() {
+//        return jButton6;
+//    }
+//
+//    /**
+//     * @param jButton6 the jButton6 to set
+//     */
+//    public void setjButton6(javax.swing.JButton jButton6) {
+//        this.jButton6 = jButton6;
+//    }
 
     /**
      * @return the jButton7

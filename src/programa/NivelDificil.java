@@ -595,62 +595,62 @@ public class NivelDificil extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel1.setText("erdcore");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(40, 80, 120, 20);
+        jLabel1.setBounds(40, 80, 120, 21);
 
         jLabel2.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel2.setText("urbcair");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(40, 130, 120, 20);
+        jLabel2.setBounds(40, 130, 120, 21);
 
         jLabel3.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel3.setText("cheeobd");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(40, 190, 130, 20);
+        jLabel3.setBounds(40, 190, 130, 21);
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel4.setText("astamadr");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(40, 250, 150, 20);
+        jLabel4.setBounds(40, 250, 150, 21);
 
         jLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel5.setText("opaarstd");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(40, 300, 140, 20);
+        jLabel5.setBounds(40, 300, 140, 21);
 
         jLabel6.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel6.setText("quisapes");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(440, 80, 120, 20);
+        jLabel6.setBounds(440, 80, 120, 21);
 
         jLabel7.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel7.setText("rrgenxea");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(440, 130, 120, 20);
+        jLabel7.setBounds(440, 130, 120, 21);
 
         jLabel8.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel8.setText("ocãfsonu");
         getContentPane().add(jLabel8);
-        jLabel8.setBounds(440, 190, 130, 20);
+        jLabel8.setBounds(440, 190, 130, 21);
 
         jLabel9.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabel9.setText("ãosssidcu");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(440, 250, 120, 20);
+        jLabel9.setBounds(440, 250, 120, 21);
 
         jLabel10.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
-        jLabel10.setText("rabturre");
+        jLabel10.setText("rabturpre");
         getContentPane().add(jLabel10);
-        jLabel10.setBounds(440, 310, 110, 20);
+        jLabel10.setBounds(440, 310, 110, 21);
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(160, 80, 70, 26);
+        jTextField1.setBounds(160, 80, 70, 20);
         getContentPane().add(jTextField2);
-        jTextField2.setBounds(160, 130, 70, 26);
+        jTextField2.setBounds(160, 130, 70, 20);
         getContentPane().add(jTextField3);
-        jTextField3.setBounds(160, 190, 70, 26);
+        jTextField3.setBounds(160, 190, 70, 20);
         getContentPane().add(jTextField4);
-        jTextField4.setBounds(160, 250, 70, 26);
+        jTextField4.setBounds(160, 250, 70, 20);
         getContentPane().add(jTextField5);
-        jTextField5.setBounds(160, 300, 70, 26);
+        jTextField5.setBounds(160, 300, 70, 20);
 
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -658,15 +658,15 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField6);
-        jTextField6.setBounds(550, 80, 70, 26);
+        jTextField6.setBounds(550, 80, 70, 20);
         getContentPane().add(jTextField7);
-        jTextField7.setBounds(550, 130, 70, 26);
+        jTextField7.setBounds(550, 130, 70, 20);
         getContentPane().add(jTextField8);
-        jTextField8.setBounds(550, 190, 70, 26);
+        jTextField8.setBounds(550, 190, 70, 20);
         getContentPane().add(jTextField9);
-        jTextField9.setBounds(550, 250, 70, 26);
+        jTextField9.setBounds(550, 250, 70, 20);
         getContentPane().add(jTextField10);
-        jTextField10.setBounds(550, 310, 70, 26);
+        jTextField10.setBounds(550, 310, 70, 20);
 
         jButton1.setText("Verificar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -675,7 +675,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(250, 80, 96, 29);
+        jButton1.setBounds(250, 80, 71, 23);
 
         jButton2.setText("Verificar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -684,7 +684,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(250, 130, 96, 29);
+        jButton2.setBounds(250, 130, 71, 23);
 
         jButton3.setText("Verificar");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -693,7 +693,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(250, 190, 96, 29);
+        jButton3.setBounds(250, 190, 71, 23);
 
         jButton4.setText("Verificar");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -702,7 +702,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(250, 250, 96, 29);
+        jButton4.setBounds(250, 250, 71, 23);
 
         jButton5.setText("Verificar");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -711,7 +711,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton5);
-        jButton5.setBounds(250, 300, 96, 29);
+        jButton5.setBounds(250, 300, 71, 23);
 
         jButton6.setText("Verificar");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -720,7 +720,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton6);
-        jButton6.setBounds(630, 80, 96, 29);
+        jButton6.setBounds(630, 80, 71, 23);
 
         jButton7.setText("Verificar");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -729,7 +729,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton7);
-        jButton7.setBounds(630, 130, 96, 29);
+        jButton7.setBounds(630, 130, 71, 23);
 
         jButton8.setText("Verificar");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -738,7 +738,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton8);
-        jButton8.setBounds(630, 190, 96, 29);
+        jButton8.setBounds(630, 190, 71, 23);
 
         jButton9.setText("Verificar");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -747,7 +747,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton9);
-        jButton9.setBounds(630, 250, 100, 29);
+        jButton9.setBounds(630, 250, 100, 23);
 
         jButton10.setText("Verificar");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -756,7 +756,7 @@ public class NivelDificil extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton10);
-        jButton10.setBounds(630, 310, 100, 29);
+        jButton10.setBounds(630, 310, 100, 23);
 
         jLabel11.setFont(new java.awt.Font("Mistral", 1, 18)); // NOI18N
         jLabel11.setText("0");

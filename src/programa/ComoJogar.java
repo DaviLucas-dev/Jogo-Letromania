@@ -54,23 +54,23 @@ public class ComoJogar extends javax.swing.JFrame {
         getContentPane().add(jButton3);
         jButton3.setBounds(70, 470, 90, 60);
 
-        jButton2.setText("Erro");
+        jButton2.setText("Som de erro");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(250, 390, 140, 50);
+        jButton2.setBounds(250, 420, 140, 50);
 
-        jButton1.setText("Acerto");
+        jButton1.setText("Som de acerto");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(80, 390, 130, 50);
+        jButton1.setBounds(80, 420, 130, 50);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/TelaComoJogarFinal.png"))); // NOI18N
         jLabel1.setFocusable(false);
